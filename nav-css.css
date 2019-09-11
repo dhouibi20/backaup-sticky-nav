@@ -1,0 +1,67 @@
+
+@media only screen and (max-width: 740px){
+  #opty-new-id .c-tabs__header.opty-new-nav{
+  height: auto;
+  }
+  #opty-new-id .c-tabs__header.opty-new-nav .c-tabs__nav li.c-tabs__item{
+    height: 40px;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left:0;
+    padding-right: 0;
+    padding: 0 17px 0 20px;
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5), 2px 2px 14px 0 #0073C5; */
+    background-color: #4A4A4A;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5), 2px 2px 14px 0 #4A4A4A;
+    display: flex  !important;
+}
+  #opty-new-id .c-tabs__header.opty-new-nav .o-list-inline__item {
+   display: flex !important;
+    
+  }
+#opty-new-id .c-tabs__header.opty-new-nav .c-tabs__nav .c-tabs__item:first-child {
+    margin-left: 0 !important;
+  }
+  #opty-new-id .c-tabs__header.opty-new-nav .c-tabs__nav li.c-tabs__item button, .c-tabs__header.opty-new-nav .c-tabs__nav li.c-tabs__item a{
+  padding: 0;
+  padding-top: 7px;
+   padding-bottom: 7px;
+  height: 100%;
+   width: 100%;
+   text-align: left;
+  }
+
+#opty-new-id .c-tabs__header.opty-new-nav .c-tabs__nav li.c-tabs__item button:after, .c-tabs__header.opty-new-nav .c-tabs__nav li.c-tabs__item a:after{
+  display: none;
+  }
+  
+    #opty-new-id .c-tabs--my-account .opty-new-nav .c-tabs__link:after {
+   height: auto !important;
+    background-color: transparent!important;
+    bottom: inherit!important;
+    right:  inherit!important;
+    left:  inherit!important;
+  }
+  
+#opty-new-id .c-tabs__header.opty-new-nav .c-tabs__link:after{
+  content: '';
+  display: block !important;
+  height: 28px !important;
+  width: 28px !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+background-image: url("data:image/svg+xml,%3Csvg width='28' height='28' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='linear-system' fill='white' fill-rule='evenodd'%3E%3Cg id='linear-arrow-right'%3E%3Cpath d='M10.111 6.032L10 6.169l10.004 10.003L10 26.176l.111.137c.205.247.81 1.033 1.263 1.033.198-.009.365-.088.529-.249L22.17 16.833a.934.934 0 0 0 0-1.321L11.903 5.248c-.164-.162-.331-.241-.529-.248-.453 0-1.058.784-1.263 1.032z' id='Icon'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    position: absolute !important;
+    right: 1px !important;
+    top: 6px;
+      transform: none;
+  transition: transform .25s ease;
+  transition: transform .25s ease,-webkit-transform .25s ease;
+}
+#opty-new-id .c-tabs__header.opty-new-nav .c-tabs__link.is-active:after {
+  transform: rotate(90deg);
+  }
+
+
+}
